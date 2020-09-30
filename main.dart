@@ -130,6 +130,57 @@ class HomePage extends StatelessWidget {
 	                          Color.fromRGBO(143, 148, 251, 1),
 	                          Color.fromRGBO(143, 148, 251, .6),
 	                        ]
+				      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            margin: EdgeInsets.fromLTRB(20, 0, 0, 10),
+                            child: Text(
+                              'Tuition Fee        : ₹ 8000',
+                              style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w400,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            margin: EdgeInsets.fromLTRB(20, 0, 0, 10),
+                            child: Text(
+                              'Other Charges  : ₹ 2000',
+                              style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w400,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Container(
+                        margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                        child: Divider(
+                          color: Colors.black,
+                        ),
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            margin: EdgeInsets.fromLTRB(20, 5, 0, 20),
+                            child: Text(
+                              'Total                 : ₹ 10000',
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
 	                      )
 	                    ),
 	                    child: Center(
